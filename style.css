@@ -593,6 +593,7 @@ a {
     align-items:center;
     justify-content:center;
     overflow:hidden;
+    margin-bottom: 15px;
 }
 
 .benefit-icon img{
