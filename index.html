@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Panduan membuat akun student dari kampus dan memanfaatkan benefit edukasi seperti Canva, Gemini, cloud storage, tools coding, dan aplikasi produktivitas.">
+  <title>Campus Student Access | Panduan Akun Student Kampus</title>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90" tabindex="0">
+  <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#beranda" aria-label="Campus Student Access">
+        <span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>
+        <span>CampusID</span>
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-lg-2">
+        <button class="btn btn-icon theme-toggle" id="themeToggle" type="button" aria-label="Aktifkan dark mode" data-bs-toggle="tooltip" data-bs-title="Dark mode">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Buka menu navigasi">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-1" id="navbarMenu">
+        <ul class="navbar-nav ms-lg-auto align-items-lg-center gap-lg-1 py-3 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#manfaat">Manfaat</a></li>
+          <li class="nav-item"><a class="nav-link" href="#langkah">Langkah</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefit">Benefit</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary btn-sm rounded-pill px-3" href="#checklist">
+              <i class="bi bi-check2-square me-1"></i>Checklist
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="beranda" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative">
+        <div class="row min-vh-100 align-items-center pt-5">
+          <div class="col-lg-7 py-5">
+            <div class="hero-badge mb-4">
+              <i class="bi bi-stars"></i>
+              Panduan akun student kampus
+            </div>
+            <h1 class="hero-title">Satu akun kampus, banyak akses belajar premium.</h1>
+            <p class="hero-copy mt-4">
+              Pelajari cara membuat dan mengaktifkan akun student dari kampus, lalu gunakan benefit edukasi seperti desain premium, AI belajar, cloud storage, software produktivitas, dan tools developer dengan lebih aman.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#langkah" class="btn btn-primary btn-lg rounded-pill">
+                <i class="bi bi-rocket-takeoff me-2"></i>Mulai Panduan
+              </a>
+              <a href="#benefit" class="btn btn-light btn-lg rounded-pill">
+                <i class="bi bi-gift me-2"></i>Lihat Benefit
+              </a>
+            </div>
+            <div class="hero-note mt-4">
+              <i class="bi bi-info-circle"></i>
+              Benefit berbeda di setiap kampus, negara, dan penyedia layanan. Selalu cek halaman resmi sebelum klaim.
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="access-card mx-lg-auto">
+              <div class="d-flex justify-content-between align-items-start gap-3 mb-4">
+                <div>
+                  <p class="eyebrow mb-1">Student Access</p>
+                  <h2 class="h4 mb-0">Siapkan identitas digitalmu</h2>
+                </div>
+                <span class="status-pill"><i class="bi bi-shield-check"></i> Aman</span>
+              </div>
+
+              <div class="student-pass">
+                <div>
+                  <span class="pass-label">Email kampus</span>
+                  <strong>nama@kampus.ac.id</strong>
+                </div>
+                <i class="bi bi-person-vcard-fill"></i>
+              </div>
+
+              <div class="row g-3 mt-2">
+                <div class="col-6">
+                  <div class="mini-stat accent-sky">
+                    <i class="bi bi-list-check"></i>
+                    <strong>5</strong>
+                    <span>langkah utama</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mini-stat accent-coral">
+                    <i class="bi bi-lightning-charge"></i>
+                    <strong>10+</strong>
+                    <span>jenis benefit</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="access-list mt-4">
+                <div><i class="bi bi-check-circle-fill"></i> SSO / email kampus aktif</div>
+                <div><i class="bi bi-check-circle-fill"></i> Kartu mahasiswa atau NIM siap</div>
+                <div><i class="bi bi-check-circle-fill"></i> Verifikasi resmi, bukan jalur ilegal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="manfaat" class="section-pad">
+      <div class="container">
+        <div class="row align-items-end g-4 mb-5">
+          <div class="col-lg-7">
+            <span class="section-kicker">Kenapa penting?</span>
+            <h2 class="section-title mt-2">Akun student bukan cuma email, tapi akses resmi ke ekosistem belajar.</h2>
+          </div>
+          <div class="col-lg-5">
+            <p class="section-copy mb-0">
+              Dengan akun kampus yang aktif, mahasiswa bisa masuk ke sistem akademik, kelas online, perpustakaan digital, dan layanan partner yang memberi akses khusus untuk pelajar.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <article class="value-card">
+              <div class="value-icon bg-sky"><i class="bi bi-person-badge"></i></div>
+              <h3>Identitas Resmi</h3>
+              <p>Dipakai untuk login SSO, LMS, Wi-Fi kampus, portal akademik, dan verifikasi layanan pelajar.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="value-card">
+              <div class="value-icon bg-lime"><i class="bi bi-cloud-arrow-up"></i></div>
+              <h3>Kolaborasi Mudah</h3>
+              <p>Akses ruang kerja tim, penyimpanan cloud, dokumen bersama, dan grup kelas lebih rapi.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="value-card">
+              <div class="value-icon bg-coral"><i class="bi bi-gift"></i></div>
+              <h3>Benefit Edukasi</h3>
+              <p>Bisa membuka diskon atau akses khusus untuk desain, AI, coding, riset, dan produktivitas.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="value-card">
+              <div class="value-icon bg-violet"><i class="bi bi-lock"></i></div>
+              <h3>Lebih Terpercaya</h3>
+              <p>Verifikasi lewat domain kampus membantu menghindari akun palsu, undangan tidak resmi, dan risiko keamanan.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="langkah" class="section-pad soft-band">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <span class="section-kicker">Cara membuat</span>
+            <h2 class="section-title mt-2">Ikuti alur resmi dari kampus sampai akun siap dipakai.</h2>
+            <p class="section-copy">
+              Nama menu tiap kampus bisa berbeda, tetapi pola umumnya mirip: validasi data mahasiswa, aktivasi email atau SSO, lalu gunakan akun tersebut untuk klaim layanan eksternal.
+            </p>
+            <div class="callout-box mt-4">
+              <i class="bi bi-megaphone"></i>
+              <div>
+                <strong>Tips cepat:</strong>
+                simpan screenshot aktivasi, email konfirmasi, dan panduan IT kampus agar mudah saat butuh bantuan.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-number">01</span>
+                <div>
+                  <h3>Cek status mahasiswa aktif</h3>
+                  <p>Pastikan NIM, nama, program studi, dan semester sudah terdaftar di portal akademik kampus.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-number">02</span>
+                <div>
+                  <h3>Ambil email kampus atau akun SSO</h3>
+                  <p>Biasanya melalui portal mahasiswa, helpdesk IT, atau tautan aktivasi yang dikirim setelah registrasi ulang.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-number">03</span>
+                <div>
+                  <h3>Aktifkan keamanan akun</h3>
+                  <p>Buat password kuat, aktifkan verifikasi dua langkah bila tersedia, dan lengkapi email pemulihan.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-number">04</span>
+                <div>
+                  <h3>Login ke layanan kampus</h3>
+                  <p>Coba masuk ke LMS, email, Drive/OneDrive, Wi-Fi, perpustakaan digital, dan portal presensi.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-number">05</span>
+                <div>
+                  <h3>Klaim benefit student</h3>
+                  <p>Gunakan email kampus atau dokumen mahasiswa aktif pada platform resmi seperti Canva, Google, GitHub, JetBrains, Microsoft, dan lainnya.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checklist" class="section-pad">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5">
+            <span class="section-kicker">Checklist</span>
+            <h2 class="section-title mt-2">Cek kesiapan sebelum daftar benefit.</h2>
+            <p class="section-copy">
+              Centang item yang sudah kamu punya. Progress ini hanya berjalan di browser kamu dan tidak mengirim data ke mana pun.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="checklist-panel">
+              <div class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                <strong>Progress akun student</strong>
+                <span id="progressLabel" class="progress-chip">0%</span>
+              </div>
+              <div class="progress mb-4" role="progressbar" aria-label="Progress checklist akun student" aria-valuemin="0" aria-valuemax="100">
+                <div id="checkProgress" class="progress-bar" style="width: 0%"></div>
+              </div>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-hash"></i>NIM sudah aktif</span>
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-envelope-check"></i>Email kampus bisa login</span>
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-person-vcard"></i>Kartu mahasiswa tersedia</span>
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-shield-lock"></i>2FA atau recovery aktif</span>
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-file-earmark-check"></i>Bukti mahasiswa aktif siap</span>
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label class="check-item">
+                    <input class="form-check-input student-check" type="checkbox">
+                    <span><i class="bi bi-link-45deg"></i>Tautan resmi sudah dicek</span>
+                  </label>
+                </div>
+              </div>
+
+              <div id="readyAlert" class="alert ready-alert mt-4 mb-0 d-none" role="alert">
+                <i class="bi bi-party-popper"></i>
+                Siap! Kamu sudah punya modal utama untuk klaim benefit student secara aman.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefit" class="section-pad benefit-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-kicker">Benefit populer</span>
+          <h2 class="section-title mt-2 mx-auto">Manfaat yang bisa kamu cari setelah akun kampus aktif.</h2>
+          <p class="section-copy mx-auto">
+            Daftar ini bersifat panduan. Beberapa benefit membutuhkan undangan kampus, verifikasi pihak ketiga, atau program khusus yang bisa berubah sewaktu-waktu.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-canva">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-palette2"></i></span>
+                <span class="tag">Desain</span>
+              </div>
+              <h3>Canva premium untuk pembelajaran</h3>
+              <p>Gunakan template presentasi, poster, video, infografik, dan fitur kolaborasi kelas jika kampus atau sekolahmu menyediakan akses resmi.</p>
+              <div class="small-note">Catatan: Canva for Education resmi untuk K-12. Mahasiswa kampus perlu mengecek lisensi institusi seperti Canva for Campus.</div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-gemini">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-gem"></i></span>
+                <span class="tag">AI</span>
+              </div>
+              <h3>Gemini / Google AI Pro</h3>
+              <p>Bisa membantu membuat rangkuman, latihan kuis, riset, ide presentasi, analisis gambar catatan, dan penggunaan NotebookLM.</p>
+              <div class="small-note">Catatan: offer student Google AI Pro bergantung wilayah, usia, status mahasiswa aktif, dan verifikasi resmi.</div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-cloud">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-clouds"></i></span>
+                <span class="tag">Cloud</span>
+              </div>
+              <h3>Storage & dokumen kolaboratif</h3>
+              <p>Kampus sering menyediakan Google Workspace atau Microsoft 365 untuk email, Drive/OneDrive, Docs, Sheets, Teams, dan Meet.</p>
+              <div class="small-note">Gunakan folder rapi per mata kuliah agar file tugas tidak tercecer.</div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-code">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-code-slash"></i></span>
+                <span class="tag">Coding</span>
+              </div>
+              <h3>Developer tools</h3>
+              <p>Program student sering membuka akses ke repository privat, IDE profesional, cloud credit, domain, dan tools kolaborasi proyek.</p>
+              <div class="small-note">Cek GitHub Education, JetBrains, atau program kampus yang relevan dengan jurusanmu.</div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-research">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-journal-richtext"></i></span>
+                <span class="tag">Riset</span>
+              </div>
+              <h3>Jurnal & perpustakaan digital</h3>
+              <p>Akses database jurnal, e-book, turnitin-like tools, dan repositori kampus bisa membantu tugas akhir serta riset kelas.</p>
+              <div class="small-note">Login biasanya lewat SSO kampus, VPN kampus, atau portal perpustakaan.</div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="benefit-card benefit-saving">
+              <div class="benefit-top">
+                <span class="benefit-icon"><i class="bi bi-ticket-perforated"></i></span>
+                <span class="tag">Diskon</span>
+              </div>
+              <h3>Harga pelajar</h3>
+              <p>Beberapa aplikasi desain, produktivitas, kursus online, sertifikasi, dan layanan kreatif memberi diskon untuk mahasiswa aktif.</p>
+              <div class="small-note">Hindari jasa jual akun edukasi. Gunakan verifikasi resmi agar akun tidak diblokir.</div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="section-pad soft-band">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <span class="section-kicker">Detail tools</span>
+            <h2 class="section-title mt-2">Cara mengecek akses Canva, Gemini, dan layanan kampus.</h2>
+            <p class="section-copy">
+              Gunakan tab berikut sebagai ringkasan praktis. Untuk keputusan final, tetap ikuti syarat terbaru di halaman resmi masing-masing layanan.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="tool-panel">
+              <ul class="nav nav-pills tool-tabs mb-4" id="toolTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="canva-tab" data-bs-toggle="pill" data-bs-target="#canva-pane" type="button" role="tab" aria-controls="canva-pane" aria-selected="true">
+                    <i class="bi bi-palette"></i> Canva
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="gemini-tab" data-bs-toggle="pill" data-bs-target="#gemini-pane" type="button" role="tab" aria-controls="gemini-pane" aria-selected="false">
+                    <i class="bi bi-stars"></i> Gemini
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="kampus-tab" data-bs-toggle="pill" data-bs-target="#kampus-pane" type="button" role="tab" aria-controls="kampus-pane" aria-selected="false">
+                    <i class="bi bi-building"></i> Kampus
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="toolTabsContent">
+                <div class="tab-pane fade show active" id="canva-pane" role="tabpanel" aria-labelledby="canva-tab" tabindex="0">
+                  <h3>Canva: cek jalur resmi sebelum klaim</h3>
+                  <ul class="smart-list">
+                    <li><i class="bi bi-check2"></i> Tanyakan apakah kampus punya Canva for Campus atau lisensi institusi.</li>
+                    <li><i class="bi bi-check2"></i> Untuk K-12, siswa biasanya masuk lewat undangan guru atau sekolah.</li>
+                    <li><i class="bi bi-check2"></i> Gunakan email kampus atau undangan resmi, bukan link tim yang dijual pihak luar.</li>
+                    <li><i class="bi bi-check2"></i> Baca ulang syarat karena program pendidikan bisa berbeda untuk sekolah dan perguruan tinggi.</li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="gemini-pane" role="tabpanel" aria-labelledby="gemini-tab" tabindex="0">
+                  <h3>Gemini: manfaatkan untuk belajar, bukan menyalin tugas</h3>
+                  <ul class="smart-list">
+                    <li><i class="bi bi-check2"></i> Cek apakah Google AI Pro student trial tersedia di wilayahmu.</li>
+                    <li><i class="bi bi-check2"></i> Siapkan akun Google personal, bukti mahasiswa aktif, dan verifikasi yang diminta.</li>
+                    <li><i class="bi bi-check2"></i> Gunakan untuk rangkuman, latihan soal, penjelasan konsep, dan riset awal dengan sumber.</li>
+                    <li><i class="bi bi-check2"></i> Jangan unggah data sensitif kampus, nilai, atau identitas orang lain tanpa izin.</li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="kampus-pane" role="tabpanel" aria-labelledby="kampus-tab" tabindex="0">
+                  <h3>Akun kampus: rapikan fondasi digital</h3>
+                  <ul class="smart-list">
+                    <li><i class="bi bi-check2"></i> Update password setelah akun pertama kali dibuat.</li>
+                    <li><i class="bi bi-check2"></i> Cek akses LMS, email, Wi-Fi, perpustakaan, dan cloud storage.</li>
+                    <li><i class="bi bi-check2"></i> Simpan kontak helpdesk IT kampus untuk reset akun atau kendala SSO.</li>
+                    <li><i class="bi bi-check2"></i> Pisahkan file pribadi dan akademik agar mudah saat akun kampus berakhir.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="source-strip mt-4">
+                <i class="bi bi-patch-check-fill"></i>
+                Konten diringkas dari sumber resmi Canva, Google Gemini Help, dan dokumentasi Bootstrap. Diperbarui 4 Juni 2026.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad safety-section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <span class="section-kicker">Keamanan</span>
+            <h2 class="section-title mt-2">Benefit student itu menarik, tapi keamanan tetap nomor satu.</h2>
+            <p class="section-copy">
+              Akun kampus sering terhubung ke data akademik, email resmi, dan file tugas. Perlakukan seperti identitas utama, bukan akun sekali pakai.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="safety-card">
+                  <i class="bi bi-ban"></i>
+                  <strong>Jangan beli akun edukasi</strong>
+                  <span>Risiko pencurian data, pembatalan benefit, dan akun diblokir.</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="safety-card">
+                  <i class="bi bi-link"></i>
+                  <strong>Cek domain resmi</strong>
+                  <span>Gunakan portal kampus atau halaman resmi penyedia layanan.</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="safety-card">
+                  <i class="bi bi-key"></i>
+                  <strong>Password unik</strong>
+                  <span>Jangan pakai password yang sama dengan media sosial.</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="safety-card">
+                  <i class="bi bi-folder-symlink"></i>
+                  <strong>Backup file penting</strong>
+                  <span>Akun student bisa berakhir setelah lulus atau tidak aktif.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section-pad faq-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <span class="section-kicker">FAQ</span>
+            <h2 class="section-title mt-2">Pertanyaan yang sering muncul.</h2>
+            <p class="section-copy">
+              Bagian ini cocok ditempel di website kampus, blog edukasi, atau landing page komunitas mahasiswa.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="accordion custom-accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                    Apakah semua mahasiswa otomatis dapat Canva Pro?
+                  </button>
+                </h3>
+                <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Tidak selalu. Canva for Education resmi ditujukan untuk K-12, sedangkan mahasiswa kampus perlu mengecek apakah kampus memiliki lisensi institusi seperti Canva for Campus atau program lain yang sedang aktif.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                    Apa bedanya email kampus dan akun student?
+                  </button>
+                </h3>
+                <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Email kampus adalah alamat resmi. Akun student biasanya mencakup email, SSO, akses portal akademik, layanan cloud, LMS, Wi-Fi, perpustakaan digital, dan status verifikasi mahasiswa.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                    Bagaimana kalau email kampus belum aktif?
+                  </button>
+                </h3>
+                <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Cek portal mahasiswa, inbox email pribadi saat registrasi, atau hubungi helpdesk IT kampus. Siapkan NIM, kartu mahasiswa, dan bukti registrasi untuk mempercepat proses.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                    Apakah aman memakai AI untuk tugas kuliah?
+                  </button>
+                </h3>
+                <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Aman jika digunakan sebagai alat bantu belajar: memahami konsep, membuat outline, mencari ide, atau latihan soal. Tetap ikuti aturan akademik kampus, cantumkan sumber, dan jangan menyalin jawaban mentah.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-panel text-center">
+          <span class="section-kicker">Siap mulai?</span>
+          <h2 class="section-title mt-2 mx-auto">Aktifkan akun kampusmu, lalu klaim benefit dengan jalur resmi.</h2>
+          <p class="section-copy mx-auto">
+            Mulai dari hal kecil: login email kampus, ubah password, cek portal mahasiswa, dan daftar benefit yang paling mendukung tugasmu minggu ini.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+            <a href="#checklist" class="btn btn-primary rounded-pill px-4">
+              <i class="bi bi-check-circle me-2"></i>Buka Checklist
+            </a>
+            <button class="btn btn-outline-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#sourceModal">
+              <i class="bi bi-book me-2"></i>Sumber Resmi
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-5">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <a class="footer-brand d-inline-flex align-items-center gap-2 mb-3" href="#beranda">
+            <span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>
+            <span>CampusID</span>
+          </a>
+          <p class="mb-0">Website edukasi tentang aktivasi akun student kampus dan pemanfaatan benefit digital secara aman.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h3 class="footer-title">Navigasi</h3>
+          <a href="#manfaat">Manfaat</a>
+          <a href="#langkah">Langkah</a>
+          <a href="#benefit">Benefit</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <h3 class="footer-title">Sumber</h3>
+          <a href="https://www.canva.com/education/eligibility-guidelines/" target="_blank" rel="noopener">Canva Education Eligibility</a>
+          <a href="https://www.canva.com/education/" target="_blank" rel="noopener">Canva for Education</a>
+          <a href="https://support.google.com/gemini/answer/16417758" target="_blank" rel="noopener">Google Gemini Student Trial Help</a>
+          <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener">Bootstrap 5.3 Docs</a>
+        </div>
+      </div>
+      <div class="footer-bottom mt-4 pt-4 d-flex flex-wrap justify-content-between gap-2">
+        <span>Diperbarui: 4 Juni 2026</span>
+        <span>Dibuat dengan Bootstrap 5 CDN</span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="btn btn-primary btn-icon back-to-top" type="button" aria-label="Kembali ke atas" data-bs-toggle="tooltip" data-bs-title="Ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <div class="modal fade" id="sourceModal" tabindex="-1" aria-labelledby="sourceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="sourceModalLabel">Sumber resmi yang dipakai</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body">
+          <p>Gunakan tautan ini untuk mengecek syarat terbaru sebelum klaim benefit student.</p>
+          <div class="list-group source-list">
+            <a class="list-group-item list-group-item-action" href="https://www.canva.com/education/eligibility-guidelines/" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right"></i> Canva Education Eligibility Guidelines
+            </a>
+            <a class="list-group-item list-group-item-action" href="https://www.canva.com/education/" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right"></i> Canva for Education
+            </a>
+            <a class="list-group-item list-group-item-action" href="https://support.google.com/gemini/answer/16417758" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right"></i> Google Gemini Student Trial Help
+            </a>
+            <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right"></i> Bootstrap 5.3 Introduction
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary rounded-pill px-4" data-bs-dismiss="modal">Mengerti</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
