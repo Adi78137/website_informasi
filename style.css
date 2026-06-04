@@ -32,6 +32,8 @@
   --soft-shadow: 0 14px 35px rgba(0, 0, 0, 0.28);
 }
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -334,6 +336,7 @@ a {
   color: var(--muted);
   font-size: 1.02rem;
   line-height: 1.8;
+  text-align: justify;
 }
 
 .value-card,
@@ -672,6 +675,7 @@ a {
   font-weight: 700;
 }
 
+
 .source-strip i {
   color: var(--primary);
 }
@@ -813,6 +817,8 @@ a {
   gap: 0.7rem;
   font-weight: 700;
 }
+
+
 
 @media (max-width: 991.98px) {
   .navbar-collapse {
