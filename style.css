@@ -578,28 +578,51 @@ a {
 
 
 
-.benefit-top{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+.benefit-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.benefit-icon{
-    width:50px;
-    height:50px;
-    background:#fff;
-    border-radius:10px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    overflow:hidden;
-    margin-bottom: 15px;
+.benefit-top img {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
 }
 
-.benefit-icon img{
-    width:32px;
-    height:32px;
-    object-fit:contain;
+.benefit-icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.benefit-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.tutorial-step {
+  margin-bottom: 40px;
+}
+
+.benefit-top {
+  margin-bottom: 15px;
+}
+
+.small-note {
+  margin-top: 10px;
+  line-height: 1.7;
+  text-align: left;
 }
 
 .tag {
